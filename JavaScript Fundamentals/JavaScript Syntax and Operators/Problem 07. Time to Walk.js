@@ -2,7 +2,7 @@ function solve(numberOfSteps, studentFootprint, studentSpeedInKM){
    
    let distanceInMeters = numberOfSteps * studentFootprint;
 
-   let speedInSeconds = studentSpeedInKM / 3.6;
+   let speedInSeconds = studentSpeedInKM / 3.6; // To convert km/h to m/s you should divide 5 to 3,6. 1 m/s = 3,6 km/h
 
    let timeSeconds = Math.round(distanceInMeters / speedInSeconds);
 
